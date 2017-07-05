@@ -446,7 +446,7 @@ ABd1234@1
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 **Solution:** 
- <pre>:
+ <pre>
 import re
 value = []
 items=[x for x in raw_input().split(',')]
@@ -493,7 +493,7 @@ In case of input data being supplied to the question, it should be assumed to be
 We use itemgetter to enable multiple sort keys.
 
 **Solution:** 
- <pre>:
+<pre>
 from operator import itemgetter, attrgetter
 
 l = []
@@ -515,7 +515,7 @@ Define a class with a generator which can iterate the numbers, which are divisib
 Consider use yield
 
 **Solution:** 
- <pre>
+<pre>
 def putNumbers(n):
     i = 0
     while i<n:
@@ -523,7 +523,6 @@ def putNumbers(n):
         i=i+1
         if j%7==0:
             yield j
-
 for i in reverse(100):
     print i
 </pre>
@@ -551,7 +550,7 @@ Then, the output of the program should be:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 **Solution:** 
- <pre>
+<pre>
 import math
 pos = [0,0]
 while True:
