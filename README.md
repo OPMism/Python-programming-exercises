@@ -1,9 +1,9 @@
 # 100+ Python challenging programming exercises
 * * *
 ## Table of Contents
-1. [Level description](#Level description)
-2. [Problem template](#Problem template)
-3. [Questions](#Questions)
+1. [Level description](#level-description)
+2. [Problem template](#problem-template)
+3. [Questions](#questions)
 
 ### Level description
 
