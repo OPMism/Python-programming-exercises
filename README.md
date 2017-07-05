@@ -1,9 +1,11 @@
-100+ Python challenging programming exercises
-==
-# Table of Contents
-1. [Level description](# Level description)
-2. [Problem template](# Problem template)
-## Level description
+# 100+ Python challenging programming exercises
+* * *
+## Table of Contents
+1. [Level description](#Level description)
+2. [Problem template](#Problem template)
+3. [Questions](#Questions)
+
+### Level description
 
 | Level	| Description |
 |-------|-------------|
@@ -11,14 +13,12 @@
 |Level 2|Intermediate means someone who has just learned Python, but already has a relatively strong programming background from before. He should be able to solve problems which may involve 3 or 3 Python classes or functions. The answers cannot be directly be found in the textbooks.|
 |Level 3 |Advanced. He should use Python to solve more complex problem using more rich libraries functions and data structures and algorithms. He is supposed to solve the problem using several Python standard packages and advanced techniques.|
 
-## Problem template
+### Problem template
+* Question
+* Hints
+* Solution
 
-#----------------------------------------#
-Question
-Hints
-Solution
-
-3.	Questions
+### Questions
 
 #----------------------------------------#
 Question 1
