@@ -473,8 +473,6 @@ print ",".join(value)
 
 * * *
 
-Level 3
-
 **Question:**
 You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:
 1: Sort based on name;
@@ -510,8 +508,6 @@ print sorted(l, key=itemgetter(0,1,2))
 
 * * *
 
-Level 3
-
 **Question:**
 Define a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n.
 
@@ -533,8 +529,6 @@ for i in reverse(100):
 </pre>
 
 * * *
-
-Level 3
 
 Question:
 A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:
@@ -582,8 +576,6 @@ print int(round(math.sqrt(pos[1]**2+pos[0]**2)))
 </pre>
 
 * * *
-
-Level 3
 
 **Question:**
 Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
@@ -1349,7 +1341,8 @@ r2 = re.match(pat2,emailAddress)
 print r2.group(1)
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
@@ -1370,7 +1363,7 @@ In case of input data being supplied to the question, it should be assumed to be
 Use \w to match letters.
 
 **Solution:** 
- <pre>
+<pre>
 import re
 emailAddress = raw_input()
 pat2 = "(\w+)@(\w+)\.(com)"
@@ -1419,7 +1412,8 @@ Use u'strings' format to define unicode string.
 unicodeString = u"hello world!"
 print unicodeString
 
-</pre> * * *
+</pre> 
+* * *
 Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
 **Hints:**
@@ -1433,7 +1427,8 @@ s = raw_input()
 u = unicode( s ,"utf-8")
 print u
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Write a special comment to indicate a Python source code file is in unicode.
@@ -1445,7 +1440,8 @@ Write a special comment to indicate a Python source code file is in unicode.
 
 # -*- coding: utf-8 -*-
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
@@ -1474,7 +1470,8 @@ for i in range(1,n+1):
 print sum
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Write a program to compute:
@@ -1510,7 +1507,8 @@ def f(n):
 n=int(raw_input())
 print f(n)
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -1628,7 +1626,8 @@ for i in EvenGenerator(n):
     values.append(str(i))
 
 print ",".join(values)
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -1662,7 +1661,8 @@ for i in NumGenerator(n):
     values.append(str(i))
 
 print ",".join(values)
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 Please write assert statements to verify that every number in the list [2,4,6,8] is even.
@@ -1674,7 +1674,8 @@ Use "assert expression" to make assertion.
 li = [2,4,6,8]
 for i in li:
     assert i%2==0
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 Please write a program which accepts basic mathematic expression from console and print the evaluation result.
 
@@ -1698,7 +1699,8 @@ expression = raw_input()
 print eval(expression)
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
@@ -1734,7 +1736,8 @@ print bin_search(li,12)
 
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
@@ -1770,7 +1773,8 @@ print bin_search(li,12)
 
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please generate a random float where the value is between 10 and 100 using Python math module.
@@ -1787,7 +1791,8 @@ Use random.random() to generate a random float in [0,1].
 import random
 print random.random()*100
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please generate a random float where the value is between 5 and 95 using Python math module.
@@ -1805,7 +1810,8 @@ import random
 print random.random()*100-5
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.
@@ -1823,7 +1829,8 @@ import random
 print random.choice([i for i in range(11) if i%2==0])
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.
@@ -1842,7 +1849,8 @@ print random.choice([i for i in range(201) if i%5==0 and i%7==0])
 
 
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -1860,7 +1868,8 @@ Use random.sample() to generate a list of random values.
 import random
 print random.sample(range(100), 5)
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
@@ -1878,7 +1887,8 @@ import random
 print random.sample([i for i in range(100,201) if i%2==0], 5)
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.
@@ -1895,7 +1905,8 @@ Use random.sample() to generate a list of random values.
 import random
 print random.sample([i for i in range(1,1001) if i%5==0 and i%7==0], 5)
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -1913,7 +1924,8 @@ Use random.randrange() to a random integer in a given range.
 import random
 print random.randrange(7,16)
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -1934,7 +1946,8 @@ t = zlib.compress(s)
 print t
 print zlib.decompress(t)
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to print the running time of execution of "1+1" for 100 times.
@@ -1951,7 +1964,8 @@ from timeit import Timer
 t = Timer("for i in range(100):1+1")
 print t.timeit()
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to shuffle and print the list [3,6,7,8].
@@ -1969,7 +1983,8 @@ li = [3,6,7,8]
 shuffle(li)
 print li
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to shuffle and print the list [3,6,7,8].
@@ -1989,7 +2004,8 @@ print li
 
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
@@ -2010,7 +2026,8 @@ for i in range(len(subjects)):
             print sentence
 
 
-</pre> * * *
+</pre> 
+* * *
 Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].
 
 **Hints:**
@@ -2023,7 +2040,8 @@ li = [5,6,77,45,22,12,24]
 li = [x for x in li if x%2!=0]
 print li
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].
@@ -2039,7 +2057,8 @@ li = [x for x in li if x%5!=0 and x%7!=0]
 print li
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].
@@ -2055,7 +2074,8 @@ li = [12,24,35,70,88,120,155]
 li = [x for (i,x) in enumerate(li) if i%2!=0]
 print li
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -2070,7 +2090,8 @@ Use list comprehension to make an array.
 array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
 print array
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
@@ -2088,7 +2109,8 @@ print li
 
 
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -2105,7 +2127,8 @@ li = [x for x in li if x!=24]
 print li
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.
@@ -2122,7 +2145,8 @@ set1 &= set2
 li=list(set1)
 print li
 
-</pre> * * *
+</pre> 
+* * *
 
 With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
 
@@ -2146,7 +2170,8 @@ li=[12,24,35,24,88,120,155,88,120,155]
 print removeDuplicate(li)
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
@@ -2176,7 +2201,8 @@ print aFemale.getGender()
 
 
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 
 Please write a program which count and print the numbers of each character in a string input by console.
@@ -2209,7 +2235,8 @@ for s in s:
     dic[s] = dic.get(s,0)+1
 print '\n'.join(['%s,%s' % (k, v) for k, v in dic.items()])
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -2234,7 +2261,8 @@ s=raw_input()
 s = s[::-1]
 print s
 
-</pre> * * *
+</pre> 
+* * *
 
 **Question:**
 
@@ -2258,7 +2286,8 @@ Use list[::2] to iterate a list by step 2.
 s=raw_input()
 s = s[::2]
 print s
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 Please write a program which prints all permutations of [1,2,3]
 
@@ -2271,7 +2300,8 @@ Use itertools.permutations() to get permutations of list.
 import itertools
 print list(itertools.permutations([1,2,3]))
 
-</pre> * * *
+</pre> 
+* * *
 **Question:**
 Write a program to solve a classic ancient Chinese puzzle: 
 We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have?
@@ -2293,4 +2323,5 @@ numheads=35
 numlegs=94
 solutions=solve(numheads,numlegs)
 print solutions
-</pre> * * *
+</pre> 
+* * *
