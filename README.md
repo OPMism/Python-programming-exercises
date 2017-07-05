@@ -2341,7 +2341,7 @@ We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many
 Use for loop to iterate all possible solutions.
 
 **Solution:**
-<code>
+<pre>
 def solve(numheads,numlegs):
     ns='No solutions!'
     for i in range(numheads+1):
@@ -2354,5 +2354,5 @@ numheads=35
 numlegs=94
 solutions=solve(numheads,numlegs)
 print solutions
-</code>
+</pre>
 * * *
