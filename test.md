@@ -34,7 +34,6 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 Consider use range(#begin, #end) method
 
 **Solution:** 
- <pre>
 <pre> l=[]
 for i in range(2000, 3201):
     if (i%7==0) and (i%5!=0):
@@ -42,6 +41,7 @@ for i in range(2000, 3201):
 
 print ','.join(l)
 </pre>
+
 * * *
 **Question:**
 Write a program which can compute the factorial of a given numbers.
@@ -64,6 +64,7 @@ def fact(x):
 x=int(raw_input())
 print fact(x)
 </pre>
+
 * * *
 **Question:**
 With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
